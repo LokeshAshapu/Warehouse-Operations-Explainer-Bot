@@ -12,6 +12,8 @@ __pycache__/
 venv/
 env/
 .venv/
+env.example/
+
 
 # IDE
 .vscode/
@@ -19,7 +21,7 @@ env/
 
 # Vector DB index files (large binaries — regenerate with init_vectordb.py)
 faiss_index/
-chroma_db/
+
 
 # OS files
 .DS_Store
