@@ -141,14 +141,17 @@ section[data-testid="stSidebar"] .stMarkdown h3 {
 
 /* ── Input ── */
 .stChatInputContainer, [data-testid="stChatInput"] {
-    background: #1e293b !important;
+    background: #ffffff !important;
     border: 1px solid #f59e0b55 !important;
     border-radius: 14px !important;
-    color: #e2e8f0 !important;
+    color: #000000 !important;
 }
 textarea, input[type="text"] {
     background: transparent !important;
-    color: #e2e8f0 !important;
+    color: #000000 !important;
+}
+[data-testid="stChatInput"] textarea {
+    color: #000000 !important;
 }
 
 /* ── Expander ── */
