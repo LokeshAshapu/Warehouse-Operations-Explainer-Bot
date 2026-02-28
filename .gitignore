@@ -1,0 +1,26 @@
+# Environment & secrets — NEVER commit these
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Vector DB index files (large binaries — regenerate with init_vectordb.py)
+faiss_index/
+chroma_db/
+
+# OS files
+.DS_Store
+Thumbs.db
