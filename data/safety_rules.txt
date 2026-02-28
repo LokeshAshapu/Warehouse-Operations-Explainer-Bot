@@ -1,0 +1,217 @@
+WAREHOUSE SAFETY RULES AND REGULATIONS
+=======================================
+
+1. GENERAL WAREHOUSE SAFETY OVERVIEW
+--------------------------------------
+Warehouse environments are among the most hazard-prone workplaces due to the combination of heavy machinery, moving vehicles, high shelving, manual lifting, and diverse workforce activities occurring simultaneously. Safety in a warehouse is not optional — it is a legal requirement and a moral responsibility.
+
+All warehouse personnel must follow safety rules at all times. Safety rules apply to full-time staff, temporary workers, contractors, and visitors.
+
+Regulatory compliance bodies include:
+- OSHA (Occupational Safety and Health Administration) — USA
+- HSE (Health and Safety Executive) — UK
+- ISO 45001: Occupational Health and Safety Management Systems
+
+
+2. PERSONAL PROTECTIVE EQUIPMENT (PPE)
+----------------------------------------
+PPE is the first line of defense for warehouse workers. The correct PPE must be worn at all times in designated areas.
+
+2.1 Mandatory PPE for All Warehouse Areas:
+- High-Visibility (Hi-Vis) Vest: Must be worn at all times in active warehouse areas where vehicles operate
+- Safety Footwear: Steel-toed boots or shoes are mandatory to protect against dropped goods
+- Hard Hat (Helmet): Required in areas with overhead work, crane operations, or racking above 6 meters
+
+2.2 PPE for Specific Tasks:
+- Cut-Resistant Gloves: Required when using box cutters, knives, or handling sharp-edged goods
+- Safety Glasses / Goggles: Required when operating powered equipment, handling chemicals, cutting
+- Ear Protection (Earplugs / Earmuffs): Required in areas with noise levels above 85 dB (e.g., near conveyor systems, compactors)
+- Dust Masks / Respirators: Required in dusty environments, chemical storage areas, or when handling fine particulate goods
+- Chemical-Resistant Gloves and Apron: Required when handling hazardous materials, cleaning agents, batteries
+- Face Shield: Required for HazMat handling and liquid chemical tasks
+- Anti-Static Wrist Strap: Required when handling electronic components
+
+2.3 PPE Inspection and Maintenance:
+- PPE must be inspected before each use
+- Damaged or worn PPE must be reported to supervisors and replaced immediately
+- PPE is provided free of charge by the employer
+- Workers must not modify or tamper with PPE
+
+
+3. FORKLIFT AND MATERIALS HANDLING EQUIPMENT (MHE) SAFETY
+-----------------------------------------------------------
+Forklifts are the leading cause of serious warehouse injuries. Strict rules apply.
+
+3.1 Forklift Operator Certification:
+- Only certified and authorized operators are permitted to operate forklifts
+- Operator certification must be renewed every 3 years or after an incident
+- Operators must complete a daily pre-operation checklist before using equipment
+
+3.2 Forklift Operating Rules:
+- Maximum speed limits apply: 5 mph (8 km/h) in warehouse areas, 3 mph in pedestrian zones
+- Forks must be lowered to travel height (6 inches / 15 cm from ground) when moving
+- Never exceed the forklift's rated load capacity (visible on the data plate)
+- Do not carry passengers on forklifts — only operator is permitted on vehicle
+- Sound horn at all blind corners, intersections, and doorways
+- Maintain clear visibility; if load blocks view, drive in reverse with a spotter
+- No mobile phone use while operating powered equipment
+- Forklifts must be parked with forks lowered, engine off, and handbrake applied
+
+3.3 Pedestrian Safety:
+- Pedestrian walkways must be clearly marked with yellow painted lines
+- Pedestrians must never cross forklift aisles without visually confirming it is safe
+- Pedestrians always have right of way at designated crossing points
+- Forklift operators must give way to pedestrians at all times
+
+3.4 MHE Daily Pre-Checks:
+Before starting any shift, check:
+- Tires: Inflation, wear, damage
+- Forks: Cracks, bends, wear
+- Mast: Chains, hydraulic fluid, smooth operation
+- Lights: Operational (headlights, reverse alarm, strobe)
+- Horn: Functional
+- Battery (electric): Charge level
+- Brakes: Operational
+Any defect must be reported to maintenance and the vehicle must be tagged out of service.
+
+
+4. RACKING AND SHELVING SAFETY
+--------------------------------
+Racking failures cause serious accidents including fatalities from collapsing racks.
+
+4.1 Load Limits:
+- Never exceed the Safe Working Load (SWL) displayed on racking labels
+- Pallet weights must be verified before put-away
+- Uneven or damaged pallets must not be placed on racking
+
+4.2 Racking Inspection:
+- Racking must be inspected weekly by trained personnel
+- Annual formal inspection by a qualified rack inspector is mandatory
+- Any damage (dents, bends, broken clips, leaning columns) must be reported immediately
+- Damaged racking must be unloaded and barricaded until repaired
+
+4.3 Forklift and Racking Interaction:
+- Forklift drivers must approach racking slowly and square-on
+- Racking damage caused by forklift impact must be reported immediately
+- End-of-aisle racking must be fitted with rack end protectors
+
+4.4 Height and Climbing Rules:
+- Workers must never climb on racking shelves to retrieve goods
+- Access to high locations requires an approved order picker, cherry picker, or ladder
+- Portable ladders must be secured and must not be leaned against racking uprights
+
+
+5. FIRE SAFETY
+---------------
+5.1 Fire Prevention:
+- No smoking anywhere inside warehouse premises
+- Flammable materials must be stored in designated fireproof storage areas
+- Sprinkler system clearance: Minimum 18 inches (45 cm) of clearance must be maintained below all sprinkler heads at all times
+- Electrical equipment must be switched off when not in use
+- Charging stations for electric forklifts / batteries must have dedicated ventilation
+
+5.2 Fire Evacuation:
+- Fire evacuation routes must be clearly marked and never obstructed
+- Emergency exits must remain unlocked and accessible at all times
+- Fire assembly point must be known to all staff
+- Fire drills conducted at least twice per year
+
+5.3 Fire Extinguishers:
+- Types: Class A (general), Class B (flammable liquids), Class C (electrical), Class D (metals)
+- Fire extinguishers must be inspected monthly and serviced annually
+- Staff must be trained in fire extinguisher use (PASS: Pull, Aim, Squeeze, Sweep)
+- Never use water extinguishers on electrical or chemical fires
+
+5.4 Fire Reporting:
+- Any fire, however small, must be reported immediately
+- Raise fire alarm first; evacuation is the priority — do not fight a large fire
+
+
+6. MANUAL HANDLING AND ERGONOMICS
+------------------------------------
+6.1 Safe Lifting Technique:
+- Assess the load before lifting: weight, size, shape, grip points
+- Never lift loads over 25 kg alone; team-lift or use mechanical aids
+- Safe lifting posture: Stand close to load, feet shoulder-width apart, bend knees (not back), grip firmly, keep load close to body, lift smoothly
+- Do not twist while carrying — turn using feet
+
+6.2 Mechanical Aids:
+- Use trolleys, pallet jacks, and conveyor belts whenever possible
+- Push (don't pull) trolleys and carts
+- Use handles, grip tape, or lifting straps for awkward loads
+
+6.3 Ergonomic Workstation Setup:
+- Packing stations must be at waist height to avoid bending
+- Anti-fatigue mats should be provided at standing workstations
+- Regular microbreaks (5 min every hour) reduce musculoskeletal risk
+- Stock heavy items in the "golden zone" (between knee and shoulder height)
+
+
+7. HAZARDOUS MATERIALS (HAZMAT) HANDLING
+------------------------------------------
+7.1 HAZMAT Classification:
+Hazardous materials are classified per DG (Dangerous Goods) regulations:
+- Class 1: Explosives
+- Class 2: Gases (flammable, non-flammable, toxic)
+- Class 3: Flammable liquids
+- Class 4: Flammable solids
+- Class 5: Oxidizers and organic peroxides
+- Class 6: Toxic and infectious substances
+- Class 7: Radioactive materials
+- Class 8: Corrosives
+- Class 9: Miscellaneous dangerous goods
+
+7.2 HazMat Storage Rules:
+- Hazardous materials must be stored in designated, segregated areas
+- Incompatible materials must not be stored together (e.g., oxidizers with flammables)
+- Secure, ventilated, locked storage cabinets for flammables and corrosives
+- Safety Data Sheets (SDS) must be available for all hazardous materials
+- Secondary containment (spill bunds) required for liquids
+
+7.3 Spill Response:
+- Evacuate the immediate area
+- Alert supervisor and safety officer immediately
+- Use correct spill kit for the material type
+- Do not attempt to clean up large chemical spills without training and full PPE
+
+7.4 HazMat Labeling:
+- All hazardous goods must display correct UN/GHS hazard labels
+- Labels must be clearly visible and not obscured
+
+
+8. WORKING AT HEIGHT
+---------------------
+- Any work above 2 meters is classified as "work at height"
+- Appropriate equipment must be used: order pickers, scissor lifts, cherry pickers
+- Fall arrest harnesses must be worn when working in elevated platforms
+- Never lean precariously over the edge of elevated platforms
+- Platforms must be inspected before each use
+- No working at height during wet, icy, or high-wind conditions
+
+
+9. HOUSEKEEPING AND FLOOR SAFETY
+----------------------------------
+- Warehouse floors must be swept and cleaned regularly
+- Spills must be cleaned immediately and "Wet Floor" signs erected
+- Aisles and emergency exits must remain clear at all times
+- Cardboard, plastic wrap, and packing materials must be disposed of in designated waste areas
+- Broken pallets must be removed and not reused
+- No personal items (bags, coats) left in working aisles
+
+
+10. INCIDENT REPORTING
+-----------------------
+- All incidents (accidents, near misses, unsafe conditions) must be reported immediately
+- Even minor injuries must be reported and recorded
+- Incident report forms must be completed within 24 hours
+- Near-miss reporting is encouraged — near misses are accident warnings
+- Investigation and corrective action follow every incident
+
+
+11. VISITOR AND CONTRACTOR SAFETY
+-----------------------------------
+- All visitors must sign in at the reception and be issued a visitor badge
+- Visitors must be accompanied by an authorized staff member at all times
+- Visitors must wear PPE (Hi-Vis vest minimum) while in warehouse areas
+- Contractors must complete a site induction before beginning any work
+- No unauthorized access to dock areas, racking zones, or HazMat areas

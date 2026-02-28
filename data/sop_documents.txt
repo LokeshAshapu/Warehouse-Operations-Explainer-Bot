@@ -1,0 +1,316 @@
+WAREHOUSE STANDARD OPERATING PROCEDURES (SOPs)
+================================================
+
+SOP-001: INBOUND RECEIVING PROCEDURE
+--------------------------------------
+Document ID: WH-SOP-001
+Version: 2.1
+Department: Inbound / Receiving
+Applies to: Receiving Clerks, Dock Supervisors, Warehouse Associates
+
+OBJECTIVE:
+To ensure all incoming shipments are received, inspected, and recorded accurately into the Warehouse Management System (WMS) without delay.
+
+PROCEDURE STEPS:
+
+Step 1 - Pre-Arrival Preparation
+1.1. Log into WMS and review the Expected Receipts list for the day.
+1.2. Confirm Purchase Orders (POs) and Advance Shipping Notices (ASNs) are available.
+1.3. Assign available dock doors to incoming carriers based on appointment schedule.
+1.4. Ensure receiving equipment is ready: forklifts, pallet jacks, scanners, label printers.
+1.5. Allocate receiving staff based on expected volume.
+
+Step 2 - Carrier Arrival and Dock Assignment
+2.1. Carrier checks in at the security gate with delivery documentation.
+2.2. Security verifies the carrier identity and records details (truck number, driver ID, carrier name).
+2.3. Dock coordinator assigns an available dock door and directs the carrier.
+2.4. Carrier backs truck into dock. Dock leveler and wheel chocks are applied.
+
+Step 3 - Documentation Verification
+3.1. Receiving clerk collects the Bill of Lading (BOL) and Packing List from the driver.
+3.2. Verify supplier name, PO number, and expected SKU list against WMS.
+3.3. Note any seal number on the trailer. Verify seal is intact before breaking.
+3.4. Record any discrepancy in delivery documentation before unloading begins.
+
+Step 4 - Unloading
+4.1. Unload goods using appropriate equipment (forklift for pallets, hand trucks for cartons).
+4.2. Count total pallets/cartons as they are unloaded.
+4.3. Place goods in the designated staging area in the receiving dock.
+4.4. Do not place goods in storage aisles until inspection is complete.
+
+Step 5 - Inspection
+5.1. Verify outer carton/pallet count against BOL.
+5.2. Randomly open cartons (10% sample minimum) to verify:
+     - Correct SKU / product code
+     - Quantity per carton
+     - Product condition (no damage, no leakage)
+     - Expiry dates (if applicable)
+     - Correct labeling and barcodes
+5.3. For full inspection orders (as flagged in WMS), open 100% of cartons.
+5.4. Record all findings (quantities confirmed, shortages, overages, damages).
+
+Step 6 - GRN Creation
+6.1. Enter received quantities into WMS for each SKU.
+6.2. Generate the Goods Receipt Note (GRN) in WMS.
+6.3. Print and attach GRN confirmation labels to received pallets.
+6.4. For discrepancies: Create Discrepancy Report in WMS and email procurement and supplier.
+
+Step 7 - Put-Away
+7.1. WMS generates put-away task with assigned bin location for each SKU.
+7.2. Forklift operator scans GRN label and follows WMS put-away instructions.
+7.3. Scan shelf barcode at destination location to confirm put-away.
+7.4. WMS updates inventory balance in real time.
+
+Step 8 - Completion
+8.1. Carrier driver signs GRN acknowledgement (or electronic confirmation via carrier app).
+8.2. Driver is released. Dock doors are secured.
+8.3. Receiving supervisor reviews GRN report for accuracy.
+8.4. GRN documents archived in WMS and sent to accounts payable for invoice matching.
+
+EXCEPTION HANDLING:
+- Damaged goods: Move to quarantine zone, photograph, create damage report, contact supplier
+- Short shipment: Record actual qty, contact supplier for credit or re-delivery
+- Over-shipment: Record overage, hold excess in staging, contact procurement for authorization to accept
+- Wrong goods: Do not put-away, create RTV (Return to Vendor) order in WMS
+
+KPIs TRACKED BY THIS SOP:
+- Dock-to-Stock Cycle Time (target: <4 hours)
+- Receiving Accuracy Rate (target: >99%)
+- GRN Processing Time
+
+
+SOP-002: STORAGE AND PUT-AWAY PROCEDURE
+-----------------------------------------
+Document ID: WH-SOP-002
+Version: 1.8
+Department: Storage / Inventory Management
+
+OBJECTIVE:
+To ensure all received goods are stored in the correct, designated locations as directed by the WMS, maintaining inventory accuracy and optimizing warehouse space.
+
+PROCEDURE STEPS:
+
+Step 1 - Receive Put-Away Task
+1.1. Upon GRN completion, WMS automatically assigns put-away tasks to available associates.
+1.2. Picker receives task on RF scanner or voice system: SKU, quantity, destination bin.
+1.3. Associate confirms task acceptance in WMS.
+
+Step 2 - Navigate to Source Location
+2.1. Associate collects goods from the receiving staging area.
+2.2. Verify goods match task: scan pallet label or product barcode.
+2.3. WMS confirms correct item and quantity.
+
+Step 3 - Navigate to Destination
+3.1. Follow WMS-directed path to destination bin location.
+3.2. Confirm aisle, bay, level, and position match WMS instruction.
+
+Step 4 - Confirm Put-Away
+4.1. Scan destination shelf barcode.
+4.2. WMS verifies location is correct and available.
+4.3. Place goods in location carefully; do not overfill or overhang shelf.
+4.4. Confirm put-away quantity in WMS.
+4.5. WMS updates live inventory balance.
+
+Step 5 - Exception Handling
+5.1. If bin is full: alert supervisor; WMS provides alternative location.
+5.2. If goods do not fit: report to supervisor for slotting review.
+5.3. If wrong goods scanned: abort task, report discrepancy to supervisor.
+
+FIFO COMPLIANCE:
+- All perishable, pharmaceutical, and dated goods must follow FIFO rotation.
+- When system directs put-away to a mixed-date bin, ensure older stock is front-facing and accessible.
+- Verify lot numbers / expiry dates are scanned and recorded in WMS.
+
+
+SOP-003: ORDER PICKING PROCEDURE
+----------------------------------
+Document ID: WH-SOP-003
+Version: 3.0
+Department: Picking / Fulfillment
+
+OBJECTIVE:
+To accurately and efficiently pick customer orders from storage locations, minimizing errors and maximizing throughput.
+
+PROCEDURE STEPS:
+
+Step 1 - Receive Pick Task
+1.1. Picker logs into WMS via RF scanner, voice terminal, or PTL system.
+1.2. WMS assigns pick tasks based on wave or batch release.
+1.3. Picker collects appropriate picking equipment: cart, tote, pallet, labels.
+
+Step 2 - Navigate to Pick Location
+2.1. Follow WMS-directed path optimized for travel efficiency.
+2.2. Confirm aisle, bay, level, and position match WMS instruction.
+
+Step 3 - Pick Execution
+3.1. Scan shelf barcode to confirm correct location.
+3.2. Scan product barcode to confirm correct SKU.
+3.3. Pick the exact quantity instructed by WMS.
+3.4. Confirm pick in WMS (button press on PTL, voice confirmation, or scanner input).
+3.5. Place picked items in correct order tote (for batch/cluster picking, tote is labeled with order number).
+
+Step 4 - Short Pick Handling
+4.1. If insufficient stock at pick face: record short pick in WMS.
+4.2. WMS directs to alternate location or reserve stock.
+4.3. If still unavailable: picker alerts supervisor; supervisor reviews stock availability.
+
+Step 5 - Pick Confirmation
+5.1. After completing all pick tasks for the wave: picker delivers goods to packing station.
+5.2. Scan tote barcode at packing station handoff.
+5.3. WMS transfers custody of order from picking to packing.
+
+Step 6 - Replenishment Trigger
+6.1. When pick face stock falls below minimum level, WMS generates a replenishment task.
+6.2. Replenishment associate refills pick face from reserve storage.
+6.3. FIFO must be maintained during replenishment (older stock at front).
+
+PICK QUALITY RULES:
+- Never pick damaged goods; mark as damaged and alert supervisor
+- Never skip a location without recording in WMS
+- Do not leave totes unattended in aisles
+
+
+SOP-004: PACKING AND LABELING PROCEDURE
+-----------------------------------------
+Document ID: WH-SOP-004
+Version: 2.5
+Department: Packing / Dispatch Preparation
+
+OBJECTIVE:
+To securely pack customer orders and apply accurate shipping labels in preparation for dispatch.
+
+PROCEDURE STEPS:
+
+Step 1 - Order Verification
+1.1. Packing associate receives order tote at packing station.
+1.2. Scan tote barcode; WMS displays order contents.
+1.3. Verify all items in tote match order: scan each product barcode.
+1.4. Verify quantities match order.
+1.5. Visually inspect items for damage. Replace damaged items before packing.
+
+Step 2 - Box Selection
+2.1. Select appropriate box size based on product dimensions and fragility.
+2.2. WMS cartonization may recommend optimal box size automatically.
+2.3. Right-sizing: box should be large enough to fit contents with minimal void, but not excessively large.
+
+Step 3 - Packing
+3.1. Line box with suitable cushioning material.
+3.2. Place items securely with heaviest items at bottom.
+3.3. Fill void space with void fill (air pillows, crumpled paper).
+3.4. For fragile items: individually wrap with bubble wrap.
+3.5. Ensure no items can shift or move inside the sealed box.
+3.6. For multiple-item orders: include packing slip / order confirmation sheet inside box.
+
+Step 4 - Box Sealing
+4.1. Fold box flaps correctly.
+4.2. Apply H-tape pattern: one strip across center seam, one strip across each end.
+4.3. Ensure tape is firmly adhered to all surfaces.
+
+Step 5 - Labeling
+5.1. Print shipping label from WMS or carrier system.
+5.2. Apply shipping label flat to largest face of box.
+5.3. Verify: carrier name, barcode, tracking number, recipient address, sender address.
+5.4. Scan tracking barcode to confirm label in WMS.
+5.5. Apply special handling labels as required: "Fragile", "This Side Up", etc.
+5.6. For international shipments: attach customs invoice and applicable documentation.
+
+Step 6 - Quality Check (QC Gate)
+6.1. Final QC associate verifies weight matches expected weight in WMS (±10% tolerance).
+6.2. Visually inspect label placement, seal integrity, and box condition.
+6.3. Confirm pack in WMS — order status moves to "Dispatched / Ready to Ship".
+
+Step 7 - Outbound Sortation
+7.1. Place packed order on outbound conveyor or in designated carrier sortation lane.
+7.2. Scanner reads label; WMS sorts to correct carrier lane.
+
+
+SOP-005: DISPATCH AND SHIPPING PROCEDURE
+------------------------------------------
+Document ID: WH-SOP-005
+Version: 2.0
+Department: Dispatch / Shipping
+
+OBJECTIVE:
+To ensure all packed orders are loaded into carrier vehicles accurately, documentation is completed, and shipments depart on schedule.
+
+PROCEDURE STEPS:
+
+Step 1 - Carrier Arrival
+1.1. Carrier trucks arrive as per the dispatching schedule.
+1.2. Security logs truck number, carrier name, and arrival time.
+1.3. Dock coordinator assigns outbound dock door.
+
+Step 2 - Shipment Manifest Generation
+2.1. WMS generates shipping manifest listing all orders allocated to this carrier and truck.
+2.2. Manifest includes: order numbers, tracking numbers, weights, dimensions, destinations.
+2.3. Manifest is shared electronically with the carrier (EDI or carrier API).
+2.4. Printed manifest prepared for physical handoff.
+
+Step 3 - Loading
+3.1. Dispatch team organizes packages for loading: last stop loaded first (LIFO loading).
+3.2. Scan each package barcode as it is loaded into the truck.
+3.3. WMS confirms each scan against manifest; alerts for misloads (wrong truck).
+3.4. Heavy packages placed at bottom; fragile packages on top and secured.
+3.5. Packages are secured with load bars, straps, or cargo nets.
+
+Step 4 - Documentation Sign-Off
+4.1. Carrier driver physically checks loaded packages against manifest.
+4.2. Any discrepancy (missing or damaged package) is recorded immediately.
+4.3. Driver signs the Bill of Lading (BOL) accepting custody of shipment.
+4.4. Warehouse representative retains a signed copy of BOL.
+
+Step 5 - Truck Departure
+5.1. Truck is sealed; seal number recorded in WMS.
+5.2. Driver's copy of BOL issued.
+5.3. Departure time recorded.
+5.4. WMS updates all order statuses to "Shipped" and generates tracking numbers.
+5.5. Customer shipment confirmation emails triggered by WMS.
+
+Step 6 - Proof of Delivery (POD)
+6.1. Once delivered, carrier provides POD (electronic or paper) confirming delivery.
+6.2. WMS records POD against order.
+6.3. Any failed deliveries or RTS (Return to Sender) shipments are flagged for returns processing.
+
+DISPATCH CUTOFF RULES:
+- All packed orders must reach the dispatch staging area 30 minutes before carrier cutoff time
+- Late orders are held for next day dispatch unless carrier agrees to wait
+- Cutoff times are displayed on dispatch scheduling boards
+
+
+SOP-006: RETURNS PROCESSING PROCEDURE
+---------------------------------------
+Document ID: WH-SOP-006
+Version: 1.5
+Department: Returns / Reverse Logistics
+
+OBJECTIVE:
+To process customer returns efficiently and accurately, updating inventory and initiating appropriate disposition actions.
+
+PROCEDURE STEPS:
+
+Step 1 - RMA Authorization
+1.1. Customer service creates RMA in WMS with: customer order number, SKUs to be returned, reason code, approved quantity.
+1.2. Return shipping label with RMA number is provided to customer.
+
+Step 2 - Returns Receipt
+2.1. Returns arrive at the Returns Dock (separate from inbound dock).
+2.2. Parcel is scanned; WMS retrieves RMA details.
+2.3. Associate verifies: correct items, RMA number matches, quantity matches.
+
+Step 3 - Condition Assessment
+3.1. Each returned item inspected and graded:
+     - Grade A: Sellable — original condition, unopened or like new
+     - Grade B: Sellable — opened, tested, functional (refurbished)
+     - Grade C: Non-sellable — damaged, incomplete, or expired
+3.2. Grade recorded in WMS against each returned SKU.
+
+Step 4 - Disposition
+4.1. Grade A → Return to stock: standard put-away process
+4.2. Grade B → Refurbishment queue: sent to refurbishment area
+4.3. Grade C → Disposition options: donate, destroy, or return to vendor (RTV)
+4.4. All disposition actions recorded in WMS.
+
+Step 5 - Customer Refund/Credit
+5.1. Returns processing confirmation sent to customer service.
+5.2. Customer service initiates refund or store credit per company policy.
+5.3. WMS links returns record to customer order for audit trail.

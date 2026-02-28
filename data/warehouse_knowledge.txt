@@ -1,0 +1,344 @@
+WAREHOUSE OPERATIONS - COMPREHENSIVE KNOWLEDGE BASE
+====================================================
+
+1. INTRODUCTION TO WAREHOUSE OPERATIONS
+----------------------------------------
+A warehouse is a commercial building used for storage of goods. Warehouses are used by manufacturers, importers, exporters, wholesalers, transport businesses, customs, etc. They usually have loading docks to load and unload goods from trucks. Modern warehouses are sophisticated operational centers that form the backbone of supply chain management.
+
+Warehouse Management involves planning, organizing, staffing, and controlling all activities related to the flow of goods from receiving through storage to shipping. A well-run warehouse ensures that the right products are delivered to the right place, at the right time, in the right condition.
+
+The main operational stages in a warehouse are:
+- Inbound Processing (Receiving)
+- Put-Away and Storage
+- Order Picking
+- Packing
+- Dispatch / Shipping
+- Returns Processing (Reverse Logistics)
+
+
+2. INBOUND PROCESSING (RECEIVING)
+-----------------------------------
+Inbound processing is the first operational stage in a warehouse. It involves receiving goods from suppliers, manufacturers, or transfer from other facilities.
+
+2.1 Pre-Receiving Activities
+Before goods arrive, the warehouse team reviews:
+- Purchase Orders (POs) to know what is expected
+- Advance Shipping Notices (ASN) from suppliers
+- Scheduled delivery appointments
+- Available dock doors and labor allocation
+
+2.2 Unloading
+When a truck arrives at the receiving dock:
+- Dock staff verify the driver's delivery documents
+- Vehicles are backed into dock doors and secured using dock levelers and wheel chocks
+- Goods are unloaded manually or using forklifts, pallet jacks, and conveyors
+- A count of total cartons or pallets is done against the Bill of Lading (BOL)
+
+2.3 Inspection
+After unloading, goods undergo thorough inspection:
+- Quantity Check: Count individual units against the Purchase Order
+- Quality Check: Inspect for damage, expiry dates, correct SKUs
+- Labeling Check: Verify barcodes, product codes, UPC labels are intact
+- Temperature Check (for perishables): Verify cold chain was maintained
+- Discrepancies are recorded in a Discrepancy Report and notified to procurement
+
+2.4 Goods Receipt Note (GRN)
+After successful inspection, a Goods Receipt Note (GRN) is created:
+- GRN confirms the quantity and condition of goods accepted
+- It updates the Warehouse Management System (WMS) inventory levels
+- GRN is used for invoice matching in accounts payable
+- Any rejected goods are kept in a quarantine zone and a Return to Vendor (RTV) process is initiated
+
+2.5 Cross-Docking
+In some warehouses, cross-docking is used:
+- Goods received are directly transferred to outbound docks without storage
+- Used for time-sensitive shipments or pre-sorted supplier deliveries
+- Reduces storage time and handling costs
+
+2.6 Common Inbound Metrics
+- Receiving Accuracy Rate
+- Dock-to-Stock Cycle Time
+- Receiving Productivity (units per hour)
+- Supplier On-Time Delivery Rate
+
+
+3. STORAGE AND SLOTTING
+------------------------
+After receiving and inspection, goods are moved to designated storage locations. This process is called Put-Away.
+
+3.1 Warehouse Layout and Zones
+Warehouses are divided into zones based on product characteristics:
+- Bulk Storage Zone: Large pallets or heavy items stored on drive-in racking
+- Picking Zone (Forward Pick Area): Fast-moving items stored for quick access
+- Reserve Storage: Overflow or slow-moving inventory
+- Cold Storage Zone: Temperature-controlled area for perishables
+- Hazardous Materials Zone (HazMat): Separate, ventilated area for dangerous goods
+- Returns Zone: Dedicated area for returned items awaiting inspection
+- Quarantine Zone: Damaged or suspect goods held for decision
+
+3.2 Storage Equipment
+- Selective Pallet Racking: Most common, allows direct access to each pallet
+- Drive-in Racking: Dense storage, last-in-first-out (LIFO)
+- Push-Back Racking: LIFO, multiple pallets deep
+- Flow Racking (Gravity Roller): First-in-first-out (FIFO), ideal for perishables
+- Cantilever Racking: For long, awkward items like pipes or lumber
+- Mezzanine Floors: Multi-level storage floors
+- Vertical Lift Modules (VLMs): Automated tall storage cabinets
+
+3.3 Slotting
+Slotting is the process of assigning the best storage location for each SKU:
+- Fast movers (A-items) are placed closest to dispatch (golden zone, waist height)
+- Medium movers (B-items) are placed in mid-range locations
+- Slow movers (C-items) are placed in far or upper locations
+- ABC Analysis: Classifies items based on sales velocity
+- SKUs are slotted to minimize travel time during picking
+
+3.4 Bin Locations and Addressing
+Every storage location in a warehouse has a unique address:
+- Format example: Aisle-Bay-Level-Position (e.g., A-03-02-L = Aisle A, Bay 3, Level 2, Left)
+- WMS maps each SKU barcode to its bin location
+- Label scanners confirm correct put-away
+
+3.5 FIFO and LIFO
+- FIFO (First In, First Out): Oldest stock is picked first — used for perishables, food, pharma
+- LIFO (Last In, First Out): Latest stock is picked first — used for non-perishable items where sequence matters less
+
+3.6 Inventory Accuracy Methods
+- Cycle Counting: Regular counting of a portion of inventory each day
+- Annual Physical Inventory Count
+- Barcode scanning at every movement
+- RFID tagging for real-time tracking
+
+
+4. ORDER PICKING
+-----------------
+Order picking is the process of retrieving products from their storage locations to fulfill customer orders. It is typically the most labor-intensive and costly warehouse activity.
+
+4.1 Types of Picking Methods
+a) Discrete (Single Order) Picking:
+- One picker fulfills one complete order at a time
+- Simple and accurate, but low efficiency for high-volume operations
+- Best for small warehouses or low order volume
+
+b) Batch Picking:
+- One picker picks items for multiple orders simultaneously
+- Items are collected together and then sorted by order
+- Reduces travel time, improves picker efficiency
+- Suitable for high-volume operations with many small orders
+
+c) Zone Picking:
+- Warehouse is divided into zones, each with dedicated pickers
+- Each picker only picks items within their zone
+- Orders are passed from zone to zone (sequential) or combined at a consolidation station
+- Reduces congestion and improves specialization
+
+d) Wave Picking:
+- Picking is organized into scheduled waves during the day (e.g., morning wave, afternoon wave)
+- Matches picking activity to carrier pickup times
+- Optimizes labor and equipment scheduling
+
+e) Cluster Picking:
+- Picker uses a cart with multiple order totes
+- Picks items for several orders simultaneously, placing each into the correct tote
+- Increases picks-per-trip
+
+4.2 Pick-to-Light (PTL) System
+- Light indicators mounted on shelves guide pickers to correct locations
+- Picker confirms picks by pressing a button
+- Reduces errors, eliminates paper pick lists
+- Suitable for high-velocity items
+
+4.3 Voice Picking (Pick-by-Voice)
+- Picker wears a headset connected to WMS
+- System gives verbal instructions: "Go to Aisle B, Bay 4, Pick 3 units"
+- Picker confirms pick verbally
+- Hands-free and eyes-free, reducing errors and improving safety
+
+4.4 RF Scanning (Barcode Scanning)
+- Most common picking method
+- Picker uses a handheld RF scanner to scan shelf barcode and product barcode
+- WMS confirms correct pick or alerts for error
+- Provides real-time inventory update
+
+4.5 Automated Picking Systems
+- Goods-to-Person (G2P): Automated shuttles bring totes to a picking station
+- Pick-to-Robot: Robotic arms pick items from totes
+- Carousels: Rotating shelves bring items to pickers
+
+4.6 Picking Documents
+- Pick List: Printed or digital list of items to pick with quantities and locations
+- Wave Release: Batch of orders released for picking at once
+
+4.7 Pick Errors and Accuracy
+- Wrong item picked (mispick)
+- Wrong quantity picked
+- Damaged item picked
+- Pick accuracy is measured as: (Correct Picks / Total Picks) × 100
+- Industry standard: 99.5% or higher
+
+
+5. PACKING
+-----------
+After picking, items are moved to the packing area where they are prepared for shipment.
+
+5.1 Pre-Packing Verification
+Before packing, a verification step ensures:
+- All ordered items are present (100% pick confirmation)
+- Items are undamaged and in sellable condition
+- SKU and quantity match the order
+- Expiry dates are within acceptable range
+
+5.2 Packing Materials
+- Corrugated cardboard boxes (various sizes)
+- Bubble wrap and foam padding (void fill)
+- Air pillows and packing peanuts
+- Stretch wrap / shrink wrap
+- Packing tape and dispensers
+- Custom packaging (branded boxes, inserts)
+
+5.3 Right-Sizing
+- Selecting the correct box size to minimize dimensional weight charges
+- Over-sized packaging wastes material and increases shipping cost
+- WMS or cartonization software suggests optimal box sizes
+
+5.4 Labeling
+Each packed shipment must be labeled with:
+- Shipping Label: Carrier barcode, destination address, sender address
+- Order Number / Reference Number
+- Special handling labels: "Fragile", "This Side Up", "Keep Refrigerated"
+- Customs labels for international shipments (commercial invoice, HS codes)
+- Compliance labels for regulated items (pharma, chemicals)
+
+5.5 Special Packing Requirements
+- Fragile goods: Double-boxing, extra padding
+- Hazardous materials: UN-certified packaging, hazmat labels, safety data sheets
+- Perishables: Insulated boxes, gel ice packs, controlled temperature indicators
+- Oversized items: Palletizing, stretch wrapping, pallet labels
+
+5.6 Gift Wrapping and Value-Added Services
+Some warehouses offer:
+- Gift wrapping for e-commerce orders
+- Kitting (assembling multiple products into one bundle)
+- Quality inspection and relabeling
+- Co-packing services
+
+
+6. DISPATCH AND SHIPPING
+-------------------------
+Dispatch is the final outbound stage where packed orders are handed off to carriers for delivery.
+
+6.1 Outbound Sorting
+- Packed orders are sorted by carrier, shipping method, or region
+- Sorter conveyors or manual sorting stations are used
+- Orders grouped into outbound shipments (one truck load per carrier/region)
+
+6.2 Shipping Manifest
+- A shipping manifest lists all shipments on a truck:
+  - Order numbers, tracking numbers, weights, dimensions, destinations
+- Generated by the WMS and shared with the carrier
+- Used for customs clearance and carrier accountability
+
+6.3 Carrier Handoff and Loading
+- Goods are loaded into truck trailers in the correct sequence (last stop loaded first)
+- Dock staff confirm sealed trailer and sign carrier's BOL (Bill of Lading)
+- BOL is the legal contract between shipper and carrier
+- Carrier provides signed POD (Proof of Delivery) once goods are delivered
+
+6.4 Dispatch Documentation
+- Bill of Lading (BOL): Proof of shipment, title of goods
+- Commercial Invoice: For international shipments
+- Packing List: Detailed list of contents in each package
+- Certificate of Origin: For trade-compliance purposes
+- Export License (if applicable)
+
+6.5 Last-Mile Delivery
+- Last-mile is the final step from distribution center to end customer
+- Can use courier services, parcel carriers, or own delivery fleet
+- Real-time tracking provided via carrier systems or WMS portal
+
+6.6 Same-Day / Next-Day Dispatch Cutoffs
+- Orders received before cutoff time are dispatched same day
+- Cutoff times are defined per carrier (e.g., FedEx cutoff 3:00 PM)
+- WMS automates release and dispatch scheduling
+
+6.7 Key Shipping KPIs
+- On-Time Dispatch Rate
+- Order Fill Rate
+- Shipping Accuracy
+- Cost per Shipment
+
+
+7. RETURNS PROCESSING (REVERSE LOGISTICS)
+-------------------------------------------
+Returns are a critical part of warehouse operations, especially in e-commerce.
+
+7.1 Returns Authorization
+- Customer initiates RMA (Return Merchandise Authorization)
+- RMA number issued and communicated to customer
+- Return shipping label generated
+
+7.2 Receiving Returns
+- Returns arrive at the Returns Dock (separate from inbound dock)
+- Scanned against RMA number in WMS
+- Condition assessed: Sellable, damaged, defective, wrong item
+
+7.3 Disposition Decisions
+- Resalable: Returned to stock
+- Damaged/Defective: Sent to vendor for credit, destroyed, or donated
+- Wrong Item Returned: Sorted and processed accordingly
+
+7.4 Return-to-Vendor (RTV)
+- Damaged or defective goods sent back to the supplier
+- RTV document raised in WMS
+- Supplier credit note issued against RTV
+
+7.5 Refurbishment
+- Some products are cleaned, repaired, and repackaged for resale
+- Common in electronics, appliances, and industrial equipment
+
+
+8. WAREHOUSE MANAGEMENT SYSTEM (WMS)
+--------------------------------------
+A WMS is software that supports day-to-day warehouse operations. Key functions include:
+- Inventory tracking in real time
+- Receiving, put-away, picking, and dispatch management
+- Bin location management
+- Labor management and productivity tracking
+- Carrier integration (EDI, API)
+- Reporting and analytics
+
+Common WMS platforms: SAP EWM, Oracle WMS, Manhattan WMS, Infor WMS, Blue Yonder
+
+8.1 WMS Integration
+- ERP (Enterprise Resource Planning): Syncs orders, POs, inventory
+- TMS (Transportation Management System): Carrier bookings, freight rates
+- EDI (Electronic Data Interchange): Supplier and carrier data exchange
+
+
+9. KEY PERFORMANCE INDICATORS (KPIs)
+--------------------------------------
+Warehouse performance is measured using KPIs:
+
+Inbound KPIs:
+- Receiving Accuracy Rate
+- Dock-to-Stock Time
+- Supplier On-Time Delivery (%)
+
+Storage KPIs:
+- Inventory Accuracy (%)
+- Storage Utilization Rate (%)
+- Inventory Turnover Ratio
+
+Picking KPIs:
+- Pick Accuracy Rate
+- Picks Per Hour (PPH)
+- Order Cycle Time
+
+Packing KPIs:
+- Pack Rate (orders per hour)
+- Damage Rate
+
+Shipping KPIs:
+- On-Time Dispatch Rate
+- Order Fill Rate
+- Return Rate
